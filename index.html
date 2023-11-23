@@ -1,56 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Matrix Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
+<!-- !DOCTYPE-ით ვუთითებთ დოკუმენტის ტიპს, ასევე ავტომატურად ირჩევა უახლესი ვერსია. ამ შემთხვევაში ირჩევა html-ის ყველაზე ახალი ვერსია. -->
+<!-- html: head(title) and body nesting-ის მაგალითია.-->
+<html lang="en">
+<!-- html-გააჩნია ერთი head, ერთი body. -->
+    <head>
+        <title>Portfolio</title>
+        <!-- head-ში შეგვაქვს დამატებითი-ტექნიკური ინფორმაცია, რომელიც არ ჩანს საიტზე, თუმცა web server-ზე ინახება. -->
+    </head>
+    <body style="background-color: black;">
+        <!-- body-ში შეგვაქვს ისეთი ინფორმაცია, რომელიც საიტზე გამოიტანება. ამ tag-ით ყველა ბრაუზერში ერთი და იგივე ინფორმაცია გვხვდება -->
+        <!-- p და h ელემენტებს block level-ს ეძახიან, რადგან ჰორიზონტალურად მთლიან ხაზს იკავებენ და სხვა ელემენტს მათ ხაზზე ვერ მოვათავსებთ. 
+            ელემენტი button კი inline არის, რადგან მხოლოდ იმ ადგილს იკავებს, რაც მას სჭირდება. -->
+        <h1 style="text-align: center; color: green;">Nikoloz Butskhrikidze</h1>
+        <h2 style="text-align: center; color: green;">GOA student</h2>
+        <h3 style="color: green; font-size: larger; text-align: center;">About me</h3>
+        
+        <pre style="color: green; text-align: center;">
+            Hello, my name is nika and I am 14 years old.I started studying Programming in GOA Oriented accademy.I joined GOA because i wanted to 
+            improve myself.
+        </pre>
+        
+        <hr>
 
-        .header {
-            font-size: 30px;
-            font-weight: bold;
-        }
+        <img src="goa_photo.png" width="200" height="150">
+        
+        <hr>
 
-        .img-container {
-            display: inline-block;
-            width: 200px;
-            height: 200px;
-            margin: 10px;
-        }
+        <h2 style="color: green; text-align: center; font-size: larger;">Education</h2>
+        <pre style="color: green; text-align: center;">
+            School: 2015/-  Goal Oriented Academy: 2023/-
+            <br>
+            Programming languages:                  Skill level:
+            Python                                  Beginner
+            Html                                    Beginner
+        </pre>
+    
+        <hr>
 
-        .img-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .links a {
-            margin: 10px;
-            color: #333;
-            text-decoration: none;
-        }
-
-        .links a:hover {
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-    <div class="header">Nikoloz Butskhrikidze</div>
-    <div class="img-container">
-        <img src="386730091_2073264829732542_4309040922897032335_n.jpg" alt="Your Picture">
-    </div>
-    <div>
-        <p>Age: 14</p>
-        <p>Opinion: "The best accademy is Goa"</p>
-        <p>Software Programs: Python, Html</p>
-        <p>Study: "At Goa"</p>
-    </div>
-    <div class="links">
-        <a href="https://www.facebook.com/" target="_blank"></a>/www.facebook.com/</a>
-        <a href="mailto:nikoloz.burcxrikidze19@gmail.com">nikoloz.burcxrikidze19@gmail.com</a>
-    </div>
-</body>
-</html>
+        <h2 style="color: green; text-align: center; font-size: larger;">You can find me on:</h2>
+        <pre style="color: green; text-align: center;">
+            <a href="https://www.facebook.com/">Facebook: nikoloz bucxrikidze</a>
+            <a href="https://github.com/">Github</a>
+            <a href="https://github.com/nikobucxjunior">You can also check out my side projects on github</a>
+        </pre>
+    </body>
